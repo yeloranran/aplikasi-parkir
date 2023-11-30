@@ -164,7 +164,7 @@ class UIandFunction:
             showerror(title='Not Found', message=message)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     Basecolor = '#%02x%02x%02x' % (64, 204, 208)
     root = Tk()
     root.geometry("740x600")
